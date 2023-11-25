@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tests.css">
+    <style>
+        body {
+            background-image: url('eve.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><b>HAVE A GOOD DAY!</b></p>
+       <div class="wrapper">
+
+            <div class="task-input">
+                <ion-icon name="create-outline"></ion-icon>
+                <input type="text" placeholder="Got plans for today?+ Enter" />
+            </div>
+        </div>
+    </header>
+
+        <main>
+            <section>
+        <div class="wrapper">
+          <div class="controls">
+          <div class="filters">
+            <span class="active" id="all">All</span>
+            <span id="pending">Pending</span>
+            <span id="completed">Completed</span>
+          </div>
+            <button class="clear-btn">Clear All</button></div>
+        </div>
+        <div class="wrapper">
+              <span><ul class="task-box"></ul></span>
+       </div>
+            </section>
+        </main>
+      <script src="trial.js"></script>
+</body>
+</html>
